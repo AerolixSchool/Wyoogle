@@ -10,7 +10,7 @@
 		<div>
 			<img src="https://github.com/AerolixSchool/google-homepage/blob/master/wyoogle.png?raw=true"/>
 			<form name="wyoogle" action="#" method="POST"><br>
-				<input type="search" class="search"><br>
+				<input type="search" class="search" onblur="getval()"><br>
 				<input type="submit" class="button" name="submit" value="Wyoogle Search">
 				<input type="submit" class="button" name="lucky" value="Lucky Ducky">
 			</form>
@@ -18,3 +18,8 @@
 		
 	</body>
 </html>
+<script>
+function getVal() {
+ const val = document.querySelector('input').value;
+  alert(val);}
+<script>
