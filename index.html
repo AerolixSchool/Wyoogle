@@ -10,11 +10,29 @@
 		<div>
 			<img src="https://github.com/AerolixSchool/google-homepage/blob/master/wyoogle.png?raw=true"/>
 			<form name="wyoogle" action="#" role="search" id="form"><br>
-				<input type="search" id="query" class="search"><br>
-				<input type="submit" id="query" class="button" name="submit" value="Wyoogle Search">
-				<input type="submit" class="button" name="lucky" value="Lucky Ducky">
+				<input type="search" id="query" name-"q" class="search"><br>
+				<input type="submit" id="query" class="button" name="q" value="Wyoogle Search">
+				<input type="submit" id="query' class="button" name="q" value="Lucky Ducky">
 			</form>
-		</div>
+</script>									
+const f = document.getElementById('form');
+const q = document.getElementById('query');	
+const google = 'https://www.google.com/search?q=';
+
+function submitted(event) {
+event.preventDefault();
+const url = google + q.value;
+const win = window.open(url, '_blank');
+win.focus();
+}  
+													   
+f.addEventListener('submit', submitted);
+
+</script>
+													   
+			</div>
 		
 	</body>
 </html>
+										   
+		
