@@ -35,10 +35,10 @@ div img {
 .search {
 	width: 570px;
 	height: 28px;
-	border-top: 1px solid #bdbdbd;
-	border-bottom: 1px solid #d3d3d3;
-	border-right: 1px solid #d3d3d3;
-	border-left: 1px solid #d3d3d3;
+	border-top: 3px solid #d3d3d3;
+	border-bottom: 3px solid #d3d3d3;
+	border-right: 3px solid #d3d3d3;
+	border-left: 3px solid #d3d3d3;
 	padding-right: 30px;
 	font: 16px arial, sans-serif;
 	text-indent:5px;
@@ -115,26 +115,3 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration { display: none; }
 input[type=text]::-ms-clear {  display: none; width : 0; height: 0; }
 input[type=text]::-ms-reveal {  display: none; width : 0; height: 0; }
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
